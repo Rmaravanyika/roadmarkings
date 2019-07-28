@@ -57,10 +57,10 @@
     </style>
   </head>
 
-<body>
+<body style="font-family: Arial Narrow; font-size: 17px">
 <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
   <div class="container">
-   <a class="navbar-brand" href="#"><img src="/static/img/Logo2.png" style="max-height: 100px; max-width: 120px"></a>
+   <a class="navbar-brand" href="#"><img src="/static/img/MliloRoadMarkings.png" style="max-height: 100px; max-width: 120px"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -70,14 +70,17 @@
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="about">About</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="services">Services</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="about">About Us</a>
+        <a class="nav-link" href="gallery">Portfolio</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact">Contact Us</a>
-      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="contact">Contact</a>
+      </li>       
        <li class="nav-item">
         <a class="nav-link" href="blog">Blog</a>
       </li>     
@@ -114,7 +117,26 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      // MDB Lightbox Init
+      $(function () {
+      $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+      });
+    </script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5d37229d6d8083122839a135/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
   </body>
 </html>

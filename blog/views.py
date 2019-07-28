@@ -15,6 +15,9 @@ def about(request):
 def services(request):
     return render(request, 'services.html', {})
 
+def gallery(request):
+    return render(request, 'gallery.html', {})
+
 def contact(request):
     form = ContactForm(request.POST or None)
     success = False

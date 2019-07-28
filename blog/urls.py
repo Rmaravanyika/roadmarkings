@@ -7,6 +7,7 @@ urlpatterns = [
     path('about', views.about,name='about'),
     path('services', views.services,name='services'),
     path('contact', views.contact,name='contact'),
+    path('gallery', views.gallery,name='gallery'),
     path('blog', views.blogg_page,name='blogg_page'),
     path('post/<int:pk>/', views.post_detail, name='post_detail'),
     #path('thankyou', views.thanks_view,name='thanks_view'),
