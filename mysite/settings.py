@@ -25,7 +25,7 @@ SECRET_KEY = 'w&kj)&jo_prht+a(g8%bm$2*m2wr7o38vlr5cns!sssz#lhc*('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'www.mliloroadmarking.co.za/']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'www.mliloroadmarking.co.za']
 
 
 # Application definition
